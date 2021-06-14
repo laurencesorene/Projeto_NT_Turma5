@@ -1,0 +1,755 @@
+/*Desktop*/
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho*/
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+}
+
+/*Elementos individuais Cabeçalho*/
+    .logo-site {
+        width: 249px;
+        height: 53px;
+        display: flex;
+    }
+    .logo-site span{
+        height: 43px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px 0 0 20px;
+    }
+
+    /*Menu*/
+    .responsive-menu ul {
+        height: 40px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 20px;
+        background-color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .responsive-menu ul li {
+        height: 20px;
+        display: inline;
+        align-items: baseline;
+        float: left;
+        padding: 10px 5px;
+        border-left: 1px solid #979797;
+    }
+    .responsive-menu ul li:nth-child(1) {
+            display: none;
+        }
+        .responsive-menu ul li:nth-child(2) {
+            border-left: none;
+        }
+    
+        .responsive-menu ul li:hover {
+            background-color: #333;
+            color: white;
+        }
+
+/*Area de conteudo*/
+.total{
+    width: 100%;
+    height: 912px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 0 0 0;
+}
+
+/*Nova transação*/
+.Nova-T {
+    width: 26.66%;
+    height: 344px;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+form div {
+    width: 95.55%;
+    margin: 10px 0 10px;
+}
+    .Nova-T span {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Nova-T form {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+
+    .Nova-T form select {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+    .Nova-T form input {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+
+    .EnviarB button {
+        width: 92.5%;
+        height: 32px;
+        background-color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        border-radius: 4px;
+    }
+
+    /*Extrato da transação*/
+.extrato {
+    width: 45.33%;
+    height: 281px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+    .tituloExtrato {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .T-info{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .extrato ul:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .extrato ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    hr {
+        margin: 0px;
+        padding: 0px;
+    }
+    .T-Final{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .T-resultado {
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .Linha-Final {
+        margin-top: 3px;
+    }
+
+/*rodapé*/
+footer {
+    height: 8px;
+    background-color: black;
+}
+
+
+/*Tablet landscape*/
+@media screen and (max-width: 1500px) {
+    /*Cabeçalho*/
+    header {
+        width: 100%;
+        height: 80px;
+        background-color: #e0e0e0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*Elementos individuais Cabeçalho*/
+    .logo-site {
+        width: 249px;
+        height: 53px;
+        display: flex;
+    }
+    .logo-site span{
+        height: 43px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px 0 0 20px;
+    }
+
+    /*menu*/
+    .responsive-menu ul {
+        height: 40px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 20px;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .responsive-menu ul li {
+        height: 20px;
+        display: inline;
+        align-items: baseline;
+        float: left;
+        padding: 10px 5px;
+        border-left: 1px solid #979797;
+    }
+    .responsive-menu ul li:nth-child(1) {
+            display: none;
+        }
+        .responsive-menu ul li:nth-child(2) {
+            border-left: none;
+        }
+    
+        .responsive-menu ul li:hover {
+            background-color: #333;
+            color: white;
+        }
+
+    
+    /*area de conteúdo*/
+    .total{
+        width: 100%;
+        height: 696px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 26px 0px;
+    }
+
+    /*Nova transação*/
+.Nova-T {
+    width: 26.66%;
+    height: 344px;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+form div {
+    width: 95.55%;
+    margin: 10px 0 10px;
+}
+    .Nova-T span {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Nova-T form {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+
+    .Nova-T form select {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+    .Nova-T form input {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+
+    .EnviarB button {
+        width: 92.5%;
+        height: 32px;
+        background-color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        border-radius: 4px;
+    }
+        /*Extrato da transação*/
+    .extrato {
+        width: 652px;
+        height: 281px;
+        margin-left: 20px;
+        text-align: center;
+    }
+}
+
+/*Tablet Portrait*/
+@media screen and (max-width: 1000px){
+    
+    /*Cabeçalho*/
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: #e0e0e0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*Elementos individuais Cabeçalho*/
+    .logo-site {
+        width: 310px;
+        height: 53px;
+        display: flex;
+    }
+    .logo-site img {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .logo-site span{
+        height: 43px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px 0 0 100px;
+    }
+
+    /*menu*/
+    .hamburguer-icon div{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    .responsive-menu ul {
+        display: none;
+    }
+    .responsive-menu ul li {
+        border: none;
+        text-align: right;
+        padding: 0 20px;
+        margin: 7px 0;
+    }
+    .responsive-menu ul li:nth-child(1) {
+        display: flex;
+        text-align: left;
+    }
+
+    .responsive-menu ul li:hover {
+        background-color: #c4c4c4;;
+        color: #333;
+    }
+    .responsive-menu:hover ul {
+        display: block;
+        list-style-type: none;
+        background-color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        position: fixed;
+        width: 32.8%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        padding: 20px 0;
+    }
+
+    /*Area de conteudo*/
+    .total{
+        width: 100%;
+        height: 932px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    /*Nova transação*/
+    .Nova-T {
+        width: 94.8%;
+        height: auto;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        padding-bottom: 20px;
+    }
+
+    .Nova-T form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .selecTipo {
+        width: 20%;
+    }
+    .MercName {
+        width: 47%;
+    }
+    .MercValor {
+        width: 20%;
+    }
+
+
+    .Nova-T form select {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+    #fname {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+    #lname {
+        width: 100%;
+        height: 32px;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #979797;
+    }
+
+    .EnviarB {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 10px;
+    }
+    .EnviarB button {
+        width: 200px;
+        height: 32px;
+        background-color: #333;
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        border-radius: 4px;
+    }
+
+    /*Extrato da transação*/
+.extrato {
+    width: 94.8%;
+    height: 281px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+    .tituloExtrato {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .T-info{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .extrato ul:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .extrato ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+    hr {
+        margin: 0px;
+        padding: 0px;
+    }
+    .T-Final{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .T-resultado {
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .Linha-Final {
+        margin-top: 3px;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 600px) {
+    /*Cabeçalho*/
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: #e0e0e0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*Elementos individuais Cabeçalho*/
+    .logo-site {
+        width: auto;
+        height: 53px;
+        display: flex;
+    }
+    .logo-site img {
+        width: 30px;
+        height: 30px;
+    }
+    .logo-site span{
+        height: 43px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px 0 0;
+    }
+
+    /*menu*/
+    .hamburguer-icon div{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    .responsive-menu ul {
+        display: none;
+    }
+    .responsive-menu ul li {
+        border: none;
+        text-align: right;
+        padding: 0 20px;
+        margin: 7px 0;
+    }
+    .responsive-menu ul li:nth-child(1) {
+        display: flex;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+
+    .responsive-menu ul li:hover {
+        background-color: #c4c4c4;;
+        color: #333;
+    }
+    .responsive-menu:hover ul {
+        display: block;
+        list-style-type: none;
+        background-color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        position: fixed;
+        width: 85.4%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        padding: 20px 0;
+    }
+
+/*area de conteúdo*/
+.total{
+    width: 100%;
+    height: 699px;
+    display: flex;
+}
+
+/*Nova transação*/
+.Nova-T {
+width: 90.26%;
+height: 344px;
+text-align: center;
+align-items:flex-start;
+border: none;
+padding: 0;
+}
+
+.Nova-T span {
+    display: none;
+}
+
+
+form div {
+width: 100%;
+margin: 10px 0 10px;
+padding: 0;
+}
+.Nova-T span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.Nova-T form {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.selecTipo {
+    width: 100%;
+}
+.MercName {
+    width: 100%;
+}
+.MercValor {
+    width: 100%;
+}
+.EnviarB {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 10px;
+}
+.Nova-T form select {
+    width: 100%;
+    height: 32px;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #979797;
+}
+.Nova-T form input {
+    width: 100%;
+    height: 32px;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #979797;
+}
+
+.EnviarB button {
+    width: 100%;
+    height: 32px;
+    background-color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    border-radius: 4px;
+}
+
+/*Extrato da transação*/
+.extrato {
+    width: 94.8%;
+    height: auto;
+    margin-left: 0px;
+    text-align: center;
+}
+
+    .tituloExtrato {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .T-info span {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .extrato ul:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .extrato ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        text-align: left;
+        margin: 3.5px 0px;
+    }
+    .extrato ul span:nth-child(1) {
+        width: 67.6%;
+    }
+    hr {
+        margin: 0px;
+        padding: 0px;
+    }
+    .T-Final{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .T-resultado {
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .Linha-Final {
+        margin-top: 3px;
+    }
+
+
+
+
+}

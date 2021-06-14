@@ -1,8 +1,110 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> testando </title>
-    </head>
-    <body>
-        Olá mundo!
-    </body>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='./Main.css'>
+</head>
+
+<body>
+    <header>
+        <div class="logo-site">
+            <img src="img/logo_mini.png">
+            <span>Controle Financeiro</span>
+        </div>
+        <div class="responsive-menu">
+            <div class="hamburguer-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul>
+                <li>X</li>
+                <li>Cadastro de transações &nbsp</li>
+                <li>Limpar dados &nbsp</li>
+                <li>Salvar no servidor &nbsp</li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="total">
+        <div class="Nova-T">
+            <span>Nova Transação </span>
+            <form>
+                <div class="selecTipo">
+                    <label for="TipoT">Tipo de Transação </label>
+
+                    <br>
+
+                    <select id="TipoT" name="TipoT">
+                        <option value="Comprar">Comprar</option>
+                        <option value="Vender">Vender</option>
+                    </select>
+                </div>
+
+                <div class="MercName">
+                    <label for="fname">Nome da Mercadoria</label>
+
+                    <br>
+
+                    <input type="text" id="fname" name="fname" value="input">
+                </div>
+
+                <div class="MercValor">
+                    <label for="lname">valor</label>
+
+                    <br>
+
+                    <input type="text" id="lname" name="lname" value="R$ 0,00">
+                </div>
+            </form>
+            <div class="EnviarB">
+                <button type="button">Adicionar Transação</button>
+            </div>
+        </div>
+
+        <div class="extrato">
+            <div class="tituloExtrato">
+                <span> Extrato de transações </span>
+            </div>
+            <ul class="T-info">
+                <span> Mercadoria </span>
+                <span> Valor </span>
+            </ul>
+            <hr>
+            <ul>
+                <span>+ &nbsp Lorem ipsum dolor sit amet <br> &nbsp&nbsp&nbsp&nbsp&nbsp consectetur</span>
+                <span>R$ 12.999,99</span>
+            </ul>
+            <hr>
+            <ul>
+                <span>-  &nbsp&nbsp Quis nostrud exercitation</span>
+                <span>R$ 99,99</span>
+            </ul>
+            <hr>
+            <ul>
+                <span>+  &nbsp&nbsp Lorem ipsum </span>
+                <span>R$ 9,99</span>
+            </ul>
+            <hr>
+            <hr class="Linha-Final">
+            <ul class="T-Final">
+                <span>Total </span>
+                <span>R$ 12.909,99</span>
+            </ul>
+            <ul class="T-resultado">
+                <span>[LUCRO]</span>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<footer>
+</footer>
+
 </html>
